@@ -1,0 +1,15 @@
+apiVersion: otus.homework/v1
+kind: MySQL
+metadata:
+  name: mysql-instance
+spec:
+  image: mysql:5.7
+  database: otus-database
+  password: otuspassword
+  storage_size: 1Gi
+  # env:
+  #   - name: MYSQL_ROOT_PASSWORD
+  #     valueFrom:
+  #       secretKeyRef:
+  #         name: cr-secret
+  #         key: otus-password
