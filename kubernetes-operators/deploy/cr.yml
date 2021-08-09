@@ -7,9 +7,4 @@ spec:
   database: otus-database
   password: otuspassword
   storage_size: 1Gi
-  # env:
-  #   - name: MYSQL_ROOT_PASSWORD
-  #     valueFrom:
-  #       secretKeyRef:
-  #         name: cr-secret
-  #         key: otus-password
+  
