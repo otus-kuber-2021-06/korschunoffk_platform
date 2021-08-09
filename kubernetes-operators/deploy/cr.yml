@@ -5,7 +5,6 @@ metadata:
 spec:
   image: mysql:5.7
   database: otus-database
-  password: otuspassword
+  password: otuspassword 
   storage_size: 1Gi
-#  imagePullSecrets:
-#    - name: regcred
+
