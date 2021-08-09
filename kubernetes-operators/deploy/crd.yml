@@ -18,7 +18,7 @@ spec:
               type: string
         spec:
           required:
-            - "image" 
+            - "image" #Обязательные значения в спецификации cr
             - "database"
             - "password"
             - "storage_size"
