@@ -15,5 +15,7 @@ spec:
       serviceAccountName: mysql-operator
       containers:
         - name: operator
-          image: "wenger23/mysql-operator:v1.1"
+          image: "wenger23/mysql-operator:1.1"
           imagePullPolicy: "Always"
+#      imagePullSecrets:
+#        - name: regcred

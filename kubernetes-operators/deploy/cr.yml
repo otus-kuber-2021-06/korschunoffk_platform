@@ -7,4 +7,5 @@ spec:
   database: otus-database
   password: otuspassword
   storage_size: 1Gi
-  
+#  imagePullSecrets:
+#    - name: regcred
